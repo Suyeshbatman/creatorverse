@@ -1,0 +1,59 @@
+tml, body, #root { height: 100%; }
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  /* dark overlay + space image */
+  background:
+    linear-gradient(rgba(5,10,25,0.40), rgba(5,10,25,0.40)),
+    url('/images/crea.webp') center / cover fixed no-repeat;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  border-radius: 14px;
+  backdrop-filter: blur(3px) saturate(110%);
+  -webkit-backdrop-filter: blur(3px) saturate(110%);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+}
+
+/* Light text inside the main panel */
+.glass { color: #eaf1ff; }
+
+/* Headings pure white */
+.glass h1,
+.glass h2 { color: #ffffff; }
+
+/* Regular text links (not buttons) slightly tinted */
+.glass a:not([role="button"]) { color: #cfe1ff; }
+
+.content label,
+.content legend {
+  color: #ffffff;
+}
+
+/* Content container without glass frame */
+.content { color: #eaf1ff; }
+.content h1 { color: #ffffff; }
+.content a:not([role="button"]) { color: #cfe1ff; }
+
+@font-face {
+  font-family: "Futurion";
+  src: url("/fonts/Futurion.woff2") format("woff2"),
+       url("/fonts/Futurion.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Brand title in the navbar */
+.brand {
+  font-family: "Futurion", "Orbitron", "Segoe UI", system-ui, sans-serif;
+  font-size: clamp(2.25rem, 5vw, 4rem); 
+  line-height: 1.1;
+  letter-spacing: 0.5px;
+  color: #fff;               
+  margin: 0;                 
+  text-shadow: 0 2px 10px rgba(0,0,0,0.45);
+}
