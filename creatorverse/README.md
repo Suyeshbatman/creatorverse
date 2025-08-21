@@ -4,7 +4,7 @@ Submitted by: **Suyesh Bhatta**
 
 About this web app: **Creatorverse is a React + Supabase CRUD app to showcase my favorite content creators. You can browse, add, edit, and delete creators. Each creator has a name, URL, description, and optional image.**
 
-Time spent: **X** hours
+Time spent: **5* hours
 
 ## Required Features
 
@@ -40,14 +40,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
-
-<!-- Replace the line above with your actual GIF link.
-Recommended tools:
-- ScreenToGif (Windows): https://www.screentogif.com/
-- Kap (macOS): https://getkap.co/
-- peek (Linux): https://github.com/phw/peek
--->
+<img src='https://drive.google.com/file/d/1cCZoSWO2rMcEk0mJ-Lk9HFikssXHsVD_/view?usp=drive_link' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Notes
 
